@@ -1,0 +1,105 @@
+
+    .about {
+        padding: 4rem 0 2rem;
+    }
+    
+    .about .section-subtitle,
+    .about .section-title {
+        text-align: center;
+    }
+    
+    .about .section-title {
+        font-size: 1.5rem;
+        color: #3E0E12;
+        margin-bottom: 1.5rem;
+    }
+    
+    .about .section-subtitle {
+        display: block;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+    
+    .about__container {
+        display: grid;
+        gap: 1.5rem;
+    }
+    
+    .about__data {
+        text-align: center;
+        margin-left: 14rem;
+    }
+    
+    .about__description span {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #3E0E12;
+    }
+    
+    .about__number {
+        font-size: 2.5rem;
+        color: #3E0E12;
+        display: block;
+    }
+    
+    .about__img {
+        justify-self: center;
+        width: 220px;
+        border-radius: 0.5rem;
+        box-shadow: -6px 14px 13px 0px rgba(0, 0, 0, 0.2);
+        margin-top: 8rem;
+    }
+    
+    @media screen and (min-width: 100px ) and (max-width: 768px) {
+        /* .about__container {
+        grid-template-columns: repeat(2, 1fr);
+        } */
+        .about__img {
+        visibility: hidden;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        body {
+        margin: 0;
+        }
+    
+        section {
+        padding-top: 6rem;
+        }
+    
+        .section-title {
+        margin-bottom: 2.5rem;
+        }
+    
+        .about__description {
+        text-align: initial;
+        
+        }
+    
+        .about__img {
+        width: 300px;
+        margin-top: 8rem;
+        }
+        .about__data {
+            text-align: center;
+            margin-left: 0.1rem;
+        }
+        
+    }
+    
+    @media screen and (min-width: 1024px) {
+        .bd-container {
+        margin-left: auto;
+        margin-right: auto;
+        }
+    
+        .home__img img {
+        width: 740px;
+        }
+        .about__img {
+            width: 320px;
+            margin-top: 8rem;
+        }
+    }
+    
